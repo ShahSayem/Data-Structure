@@ -69,7 +69,7 @@ int main()
 
 void push()
 {
-    top = temp = NULL;
+    temp = NULL;
     cout<<endl<<"\t\t\t\tEnter value to push: ";
     for(int i=0; i<node; i++){
         temp = (Node*) malloc (sizeof(Node));
